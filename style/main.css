@@ -1,0 +1,51 @@
+body{
+	margin: 0 0;
+	padding: 0 0;
+}
+.toDoList{
+	display:flex;
+
+	height: 100vh;
+}
+
+/*Меню*/
+h2{
+	color:white;
+}
+#menu{
+background-color: #33304f;
+	width: 20%;
+	border-right: 2px black solid;
+	text-align: center;
+}
+input[type=radio] {
+  display: none;
+		
+}
+input[type=radio]:checked + label{
+  
+		background-color: #0e1623;
+		color:white;
+}
+label{
+	padding: 20px 0;
+	border:1px grey solid;
+	width: 100%;
+  color:white;
+  display: inline-block;
+}
+
+label:hover{
+	background-color: #598ee5;
+	transition-delay: 0.7;
+	color:black;
+
+}
+/*Контент*/
+#content{
+	width: 80%;
+	padding-left: 50px;
+}
+
+
+
